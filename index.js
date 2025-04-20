@@ -27,7 +27,8 @@ app.use(cookieParser());
 
 // CORS Configuration
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+//  origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173","https://career-connect-frontend.netlify.app"],
   credentials: true,
 };
 app.use(cors(corsOptions));
